@@ -1,0 +1,8 @@
+d-block
+Establece el componente en bloque
+mx-auto
+Centra al contenedor padre
+border
+Crea un border ligero e el elemento
+float-xs/sm/md/lg/xl-left/right
+Ubica el elemento seleccionado a derecha o izquierda
