@@ -1,8 +1,36 @@
+d-none
+display:none, oculta el elemento en todas las medidas, tambien se pueda especidifcar el tamaño en el que se ocultara el elemento ejemplo: d-md-none
 d-block
-Establece el componente en bloque
+Establece el componente en el bloque y puede tomar los valores de las medidas xs-sm-md-lg-xl para mostrarlo en el adecuado, ejemplo: mostrar a partir de md: d-md-block.
+d-xs/sm/md/lg/xl-inline
+A diferencia de d-block que pone la caja que ocupe todo el ancho, esta proppieda pone los elementos al lado del otro.
 mx-auto
 Centra al contenedor padre
 border
 Crea un border ligero e el elemento
 float-xs/sm/md/lg/xl-left/right
 Ubica el elemento seleccionado a derecha o izquierda
+justify-content-start
+Controla la ubicacion de la caja sobre su eje al inicio(por defecto)
+justify-content-end
+Controla la ubicacion de la caja sobre su eje  al final
+justify-content-between
+Controla la ubicacion de la caja sobre su eje de forma uniforme con espacio entre ellos
+justify-content-around
+Controla la ubicacion de la caja sobre su eje de forma uniforme manteniendo el mismo espacio entre ellos.
+align-items-start
+Desplaza los elementos en el contenedor al princio del mismo (por defecto)
+align-items-end
+Desplaza los elementos en el contenedor al final del mismo
+align-items-center
+Desplaza los elementos en el contenedor al centro del mismo
+align-self-start
+desplaza el elemento al top del elemento contenedor
+align-self-center
+desplaza el elemento al centro del contenedor
+align-self-end
+desplaza el elemento al pie del contenedor
+fixed-top
+Fija el elemento sobre su posicion, al hacer scroll este permancera inmovil en la posicion superior
+fixed-bottom
+Fija el elemento sobre su posicion, al hacer scroll este permancera inmovil en la posicion inferior
